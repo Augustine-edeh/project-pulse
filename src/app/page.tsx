@@ -2,7 +2,7 @@ import ProjectSidebar from "./components/ProjectSidebar";
 
 const Home = () => {
   return (
-    <main>
+    <main className="h-screen  my-8">
       <ProjectSidebar />
     </main>
   );
