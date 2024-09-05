@@ -1,5 +1,11 @@
+import ProjectSidebar from "./components/ProjectSidebar";
+
 const Home = () => {
-  return <h1 className="my-8 text-center text-5xl font-bold">Hello World</h1>;
+  return (
+    <main>
+      <ProjectSidebar />
+    </main>
+  );
 };
 
 export default Home;
