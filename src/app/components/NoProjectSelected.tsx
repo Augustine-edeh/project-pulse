@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "./Button";
 
-const NoProjectSelected = () => {
+const NoProjectSelected = ({ onStartAddProject }) => {
   return (
     <div className="mt-24 text-center w-2/3">
       <Image
@@ -18,7 +18,7 @@ const NoProjectSelected = () => {
         Select a project or get stated with a new one
       </p>
       <p className="mt-8">
-        <Button>Create new project</Button>
+        <Button onClick={onStartAddProject}>Create new project</Button>
       </p>
     </div>
   );
